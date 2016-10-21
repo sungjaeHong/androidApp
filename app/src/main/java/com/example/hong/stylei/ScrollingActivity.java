@@ -40,12 +40,10 @@ public class ScrollingActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if(blurred){
-                    //backgroundBlur.setVisibility(View.GONE);
                     backgroundBlur.setAlpha(1);
                     Blurry.delete((ViewGroup) findViewById(R.id.blur));
                     Snackbar.make(view, "블러 효과 지우기 " + blurred, Snackbar.LENGTH_LONG).setAction("Action", null).show();
                 } else{
-                    //backgroundBlur.setVisibility(View.VISIBLE);
                     backgroundBlur.setAlpha(0);
                     Blurry.with(ScrollingActivity.this).radius(30).sampling(2).async().animate(300).onto((ViewGroup)findViewById(R.id.blur));
                     Snackbar.make(view, "블러 효과 주기 " + blurred, Snackbar.LENGTH_LONG).setAction("Action", null).show();
