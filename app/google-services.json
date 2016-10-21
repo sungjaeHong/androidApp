@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "193598045811",
+    "firebase_url": "https://hongs-instagram-test-app.firebaseio.com",
+    "project_id": "hongs-instagram-test-app",
+    "storage_bucket": "hongs-instagram-test-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193598045811:android:2dc466d9e4e83c9d",
+        "android_client_info": {
+          "package_name": "com.example.hong.stylei"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193598045811-qlgv7ls3m5qpa3e0f8poke1n03tmlviv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2WjCX9RAi0l37_pxZdB49rFs2M1qBJiw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
